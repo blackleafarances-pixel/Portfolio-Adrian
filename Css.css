@@ -140,6 +140,20 @@ div{
     height: 13vw;
 }
 
+#Skills_Container{
+    position: absolute;
+    display: flex;
+    top: 100vw;
+
+    justify-content: space-around;
+    
+}
+
+#Header_Last{
+    color: white;
+    font-size: 4vw;
+}
+
 
 
 /* Tablet */
@@ -306,7 +320,7 @@ div{
 
 
 /**/
-@media (max-width: 600px) { 
+@media (max-width: 1024px) { 
     .Container{
         
         height: 15vw;
@@ -385,6 +399,13 @@ div{
 
     .Video{
     height: 25vw;
+    
+    }
+
+
+    #Skills_Container{
+    top: 230vw;
+
     
     }
 
