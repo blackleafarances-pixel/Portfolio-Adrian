@@ -24,12 +24,14 @@ div{
     background-color: rgba( 0 , 0 , 0 , 0.85);
     border: 2px;
     border-radius: 20px;
+    text-align: center;
 }
 
 .Text_Button{
     margin: 0;
     font-size: 2rem;
     color: white;
+    text-align: center;
 }
 
 .Container{
@@ -60,11 +62,12 @@ div{
     border: 2px solid white;
     height: 2.5vw;
     width: 9vw;
-    align-items: auto();
+    text-align: center;
 }
 
 .Button:hover{
     cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 #About_Me_Container{
@@ -94,7 +97,7 @@ div{
     height: 14vw;
     width: 55vw;
     display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .Paragraph{
@@ -134,6 +137,7 @@ div{
     position: absolute;
     top: -1.5vw;
     font-size: 4vw; 
+    text-align: center;
     
 }
 
