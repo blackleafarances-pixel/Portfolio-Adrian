@@ -180,12 +180,15 @@ div{
 
     .Button{
         height: 3.5vw;
-        width: 12vw;
         
+    }
+
+    .Button:hover{
+        width: 15vw;  
     }
     
     .Text_Button{
-        font-size: 1.25rem;
+        font-size: 1.5rem;
 
     }
 
@@ -271,6 +274,10 @@ div{
         height: 3.5vw;
         width: 15vw;
         
+    }
+
+    .Button:hover{
+        width: 17vw;
     }
     
     .Text_Button{
