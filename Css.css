@@ -94,11 +94,10 @@ div{
 }
 
 #About_Me_Text_Container{
-    height: 14vw;
-    width: 55vw;
+
     display: flex;
-    justify-content: center; /* vertical center */
-    align-items: center;     /* horizontal center */
+    justify-content: center; /* vertical */
+    align-items: center;     /* horizontal */
     text-align: center;
 }
 
@@ -356,6 +355,7 @@ div{
     font-size: 1.5rem;
     }
 }
+
 
 
 
