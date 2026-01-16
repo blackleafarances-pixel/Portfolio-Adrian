@@ -72,16 +72,14 @@ div{
 }
 
 #About_Me_Container{
-    background-color: transparent   ;
     position: absolute;
     top: 7vw;
+
+    display: flex;
     flex-direction: column;
-    height: 40vw;
-    text-align: center;
-
-
-
+    align-items: center; /* ← THIS centers children horizontally */
 }
+
 
 #About_Me{
     color: rgba( 0 , 0 , 0 , 0.85);
@@ -106,7 +104,6 @@ div{
     font-size: 1.5rem;
     color: white;
     font: bold;
-    text-align: center;
 
     
 
@@ -357,6 +354,7 @@ div{
     font-size: 1.5rem;
     }
 }
+
 
 
 
