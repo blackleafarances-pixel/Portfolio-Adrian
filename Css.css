@@ -77,6 +77,8 @@ div{
     top: 7vw;
     flex-direction: column;
     height: 40vw;
+    text-align: center;
+
 
 
 }
@@ -353,5 +355,6 @@ div{
     font-size: 1.5rem;
     }
 }
+
 
 
