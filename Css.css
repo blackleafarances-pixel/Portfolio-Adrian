@@ -99,7 +99,6 @@ div{
 #About_Me_Text_Container{
     height: 14vw;
     width: 55vw;
-    display: flex;
     text-align: center;
 }
 
@@ -107,6 +106,9 @@ div{
     font-size: 1.5rem;
     color: white;
     font: bold;
+    text-align: center;
+
+    
 
 }
 
@@ -355,6 +357,7 @@ div{
     font-size: 1.5rem;
     }
 }
+
 
 
 
