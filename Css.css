@@ -72,12 +72,16 @@ div{
 }
 
 #About_Me_Container{
+     width: 100%;
+    height: 7vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
     background-color: transparent   ;
     position: absolute;
     top: 7vw;
     flex-direction: column;
     height: auto;
-    text-align: center;
 
 
 }
